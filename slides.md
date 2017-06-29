@@ -6,9 +6,15 @@
 
 # How we started
 
+In the early days of the group we were running:-
+
 - Stats course using GraphPad Prism
+  + 2,3 times a year
 - Microarray Analysis in Bioconductor
+  + once a year
 - Experimental Design
+  + once a year
+- In 2016 we ran X courses
 
 ---
 
@@ -18,7 +24,8 @@
 - Pressure from steering committee to provide more training
 - Our Institute joined the University
 - We got more involved with teaching at the University level
-
+- A permanent training role
+  + me!
 ---
 
 # What to teach
