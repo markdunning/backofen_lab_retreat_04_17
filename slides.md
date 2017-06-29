@@ -14,10 +14,10 @@
 
 # What Changed
 
-- Our new Institute Director (a statistican) banned Graphpad Prism
+- Our new Institute Director (a statistican) banned GraphPad Prism
+- Pressure from steering committee to provide more training
 - Our Institute joined the University
 - We got more involved with teaching at the University level
-- Pressure from steering committee to provide more training
 
 ---
 
@@ -52,6 +52,8 @@ Decisions based on:-
 - RNA-seq / ChIP-seq
 - Experimental Design
 - Data Management
+- IGV
+- Unix
 
 ---
 
