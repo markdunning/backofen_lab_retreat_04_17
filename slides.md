@@ -1,6 +1,7 @@
 # Overview of Bioinformatics Training at CRUK C.I.
-## Uk Bioinformatics Core Facilities Meeting
-## July 4th 2017
+### Mark Dunning, Cancer Research Uk Cambridge Institute
+### Uk Bioinformatics Core Facilities Meeting
+### July 4th 2017
 ---
 
 # How we started
@@ -10,8 +11,6 @@
 - Experimental Design
 
 ---
-
-
 
 # What Changed
 
@@ -24,13 +23,14 @@
 
 # What to teach
 
+Decisions based on:-
+
 - Demands from user (see next slides)
 - Topics with existing materials
 - Tools / techniques where best pratices are established
   + RNA-seq
-- Availability of people
 - Tools that encourage independance
-  + potential to result in better communication 
+  + e.g. browsers, web-based
 
 ---
 
@@ -52,6 +52,11 @@
 - RNA-seq / ChIP-seq
 - Experimental Design
 - Data Management
+
+---
+
+# Availability of Materials
+
 
 ---
 
