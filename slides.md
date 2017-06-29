@@ -39,6 +39,7 @@ Decisions based on:-
   + RNA-seq
 - Tools that encourage independance
   + e.g. browsers, web-based
+- Keeping on-top of the field
 
 ---
 
@@ -50,12 +51,12 @@ Decisions based on:-
 
 # Know your audience
 
-Take RNA-seq
+Take RNA-seq;
 
 - Do people want to run the analysis themselves
 - Or understand the basics and be able to interpret the output, maybe do some downstream analysis
-- Probably will be a mix of the two
-- Influences choice of software
+- In our case will be a mix of the two
+- Influence on choice of software
   + R, Python?
   + Galaxy?
 
@@ -83,14 +84,6 @@ Take RNA-seq
 ![](images/group-website.png)
 
 ---
-
-# Availability of Materials
-
-![](images/github.png)
-
----
-
-
 
 # Where we teach
 
@@ -142,6 +135,24 @@ Take RNA-seq
 - Technologies for easier software setup
   + VMs, Docker, Cloud compute
   
+---
+
+# Cover the basics well
+
+No point going straight to
+
+- Experimental Design
+- Stats
+  + without R at first
+- "Data Carpentry"
+- Unix
+
+---
+
+# Let's work together on this
+
+![](images/github.png)
+
 ---
 
 # Resources
