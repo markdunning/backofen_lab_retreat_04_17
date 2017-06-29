@@ -121,3 +121,7 @@ Decisions based on:-
 - Friendly, patient and empathetic trainers
 
 ---
+
+# And finally
+
+![](images/sheffield.jpg)
