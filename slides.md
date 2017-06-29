@@ -14,18 +14,19 @@ In the early days of the group we were running:-
   + once a year
 - Experimental Design
   + once a year
-- In 2016 we ran X courses
+- In 2016 we ran X courses :clap:
 
 ---
 
 # What Changed
 
-- Our new Institute Director (a statistican) banned GraphPad Prism
+- Our new Institute Director (a statistican) banned GraphPad Prism :+1:
 - Pressure from steering committee to provide more training
 - Our Institute joined the University
 - We got more involved with teaching at the University level
 - A permanent training role
   + me!
+  
 ---
 
 # What to teach
@@ -44,6 +45,19 @@ Decisions based on:-
 # What people want
 
 (survey results)
+
+---
+
+# Know your audience
+
+Take RNA-seq
+
+- Do people want to run the analysis themselves
+- Or understand the basics and be able to interpret the output, maybe do some downstream analysis
+- Probably will be a mix of the two
+- Influences choice of software
+  + R, Python?
+  + Galaxy?
 
 ---
 
@@ -107,8 +121,6 @@ Decisions based on:-
 - Better interactions between Bioinformatician and Biologist
 - Feedback after course is usually positive
   + but we haven't assessed long-term feedback yet
-- Discover new technologies
-  + docker, notebooks, shiny
 - Fun!
 
 ---
@@ -122,6 +134,24 @@ Decisions based on:-
 
 ---
 
+# It might not be as hard as you think
+
+- Plenty of resources out there
+- Technologies for easier creation of materials
+  + Rstudio, jupyter notebooks
+- Technologies for easier software setup
+  + VMs, Docker, Cloud compute
+  
+---
+
+# Resources
+
+- [CRUK C.I.](http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training)
+- [Babraham Institute Bioinformatics](https://www.bioinformatics.babraham.ac.uk/training.html)
+- [Goblet](http://www.mygoblet.org/training-portal)
+- []
+
+---
 # And finally
 
 ![](images/sheffield.jpg)
