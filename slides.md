@@ -57,8 +57,17 @@ Decisions based on:-
 
 # Availability of Materials
 
+![](images/group-website.png)
 
 ---
+
+# Availability of Materials
+
+![](images/github.png)
+
+---
+
+
 
 # Where we teach
 
