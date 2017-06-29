@@ -75,7 +75,6 @@ Decisions based on:-
   + Limited Availability
   + Everyone brings a laptop and has to install software
   + Extension cables everywhere
-  + Need to provide wifi codes and book visitors at security
 - But we can also use a facility at the University of Cambridge
 
 ---
@@ -99,6 +98,9 @@ Decisions based on:-
 - Better interactions between Bioinformatician and Biologist
 - Feedback after course is usually positive
   + but we haven't assessed long-term feedback yet
+- Discover new technologies
+  + docker, notebooks, shiny
+- Fun!
 
 ---
 
