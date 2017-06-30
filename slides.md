@@ -9,12 +9,12 @@
 In the early days of the group we were running:-
 
 - Stats course using GraphPad Prism
-  + 2,3 times a year
+  + 3,4 times a year
 - Microarray Analysis in Bioconductor
   + once a year
 - Experimental Design
   + once a year
-- In 2016 we ran X courses :clap:
+- In 2016 we contributed to 60 days of training
 
 ---
 
@@ -39,7 +39,7 @@ Decisions based on:-
   + RNA-seq
 - Tools that encourage independance
   + e.g. browsers, web-based
-- Keeping on-top of the field
+
 
 ---
 
@@ -57,7 +57,7 @@ Take RNA-seq;
 - Or understand the basics and be able to interpret the output, maybe do some downstream analysis
 - In our case will be a mix of the two
 - Influence on choice of software
-  + R, Python?
+  + R, Python notebook?
   + Galaxy?
 
 ---
@@ -81,17 +81,9 @@ Take RNA-seq;
 
 # Availability of Materials
 
+http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training
+
 ![](images/group-website.png)
-
----
-
-# Where we teach
-
-- We have to use a seminar room in the institute
-  + Limited Availability
-  + Everyone brings a laptop and has to install software
-  + Extension cables everywhere
-- But we can also use a facility at the University of Cambridge
 
 ---
 
@@ -101,13 +93,19 @@ Take RNA-seq;
 
 ---
 
-#  Costs
+#  Case Study: Intermediate R
 
-(how many hours spent - from Matt?)
+- A one-day course to teach dplyr and ggplot2
+- Three individuals involved in creating materials
+- Back of envelope estimate; around 100 hours preparation time
+  + 
+- Materials created and presented in RStudio markdown
+  + Mixture of walkthrough and exercises
+- Materials available on github
 
 ---
 
-# Benefits
+# Benefits to the Core
 
 - Visibility
 - Create links with community
@@ -118,18 +116,10 @@ Take RNA-seq;
 
 ---
 
-# What makes a good training course
-
-- Realistic aims and expectations
-- Relevant datasets, exercises
-- Materials available afterwards
-- Friendly, patient and empathetic trainers
-
----
-
 # It might not be as hard as you think
 
 - Plenty of resources out there
+  + beg, steal, borrow!
 - Technologies for easier creation of materials
   + Rstudio, jupyter notebooks
 - Technologies for easier software setup
@@ -138,8 +128,6 @@ Take RNA-seq;
 ---
 
 # Cover the basics well
-
-No point going straight to
 
 - Experimental Design
 - Stats
@@ -152,15 +140,6 @@ No point going straight to
 # Let's work together on this
 
 ![](images/github.png)
-
----
-
-# Resources
-
-- [CRUK C.I.](http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training)
-- [Babraham Institute Bioinformatics](https://www.bioinformatics.babraham.ac.uk/training.html)
-- [Goblet](http://www.mygoblet.org/training-portal)
-- []
 
 ---
 # And finally
