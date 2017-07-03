@@ -37,11 +37,11 @@ feedback <- tbl_df(read.delim("TrainingSurveyResults - Form responses 1.tsv")) %
   rename(Unix = Basic.command.line.skills, Figure.Design = Producing.Scientific.Figures,HPC=Using.high.performance.computing.tools) 
 
 feedback
-png("images/skills-feedback.png",width=1200,height=800)
+png("images/skills-feedback.png",width=1200,height=600)
 
 
 skills <- select(feedback, Experimental.Design:Software.development, R:Excel) %>% gather
-ggplot(skills, aes(x=value)) + geom_bar(fill="steelblue") + facet_wrap(~key)
+ggplot(skills, aes(x=value)) + geom_bar(fill="steelblue") + facet_wrap(~key,ncol=6)
 
 dev.off()
 ```
