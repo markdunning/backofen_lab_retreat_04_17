@@ -25,7 +25,7 @@ In the early days of the group we were running:-
 - Our Institute joined the University
 - We got more involved with teaching at the University level
 - A permanent training role
-  + me! :wink:
+  + me!
   + funded externally to the Core
   
 ---
