@@ -117,7 +117,6 @@ http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training
 - Better interactions between Bioinformatician and Biologist
 - Feedback after course is usually positive
   + but we haven't assessed long-term feedback yet
-- Steering committee are happy
 - Fun!
 
 ---
@@ -125,7 +124,7 @@ http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training
 # It might not be as hard as you think
 
 - Plenty of resources out there
-  + beg, steal, borrow!
+  + beg, (steal), borrow!
 - Technologies for easier creation of materials
   + Rstudio, jupyter notebooks
 - Technologies for easier software setup and deployment
