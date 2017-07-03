@@ -26,6 +26,7 @@ In the early days of the group we were running:-
 - We got more involved with teaching at the University level
 - A permanent training role
   + me!
+  + funded externally to the Core
   
 ---
 
@@ -45,9 +46,7 @@ Decisions based on:-
 
 ---
 
-# What people want
-
-Institute-wide survey - February 2016
+# Institute-wide survey - February 2016
 
 > For each of the skills listed below, please rate from 1 to 5 how useful it would be to receive training in this area
 
@@ -60,7 +59,7 @@ Institute-wide survey - February 2016
 
 Take RNA-seq;
 
-- Do people want to run the analysis themselves
+- Do people want to run the analysis themselves?
 - Or understand the basics and be able to interpret the output
   + maybe do some downstream analysis?
 - In our case it seems to be a mix of the two
@@ -84,6 +83,8 @@ Take RNA-seq;
 - Data Management
 - IGV
 - Unix
+- github
+- Figure Design
 
 ---
 
@@ -92,12 +93,6 @@ Take RNA-seq;
 http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training
 
 ![](images/group-website.png)
-
----
-
-# Participation Rates
-
-(latest graphs on montly participation; which courses are most popular)
 
 ---
 
@@ -120,6 +115,7 @@ http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training
 - Better interactions between Bioinformatician and Biologist
 - Feedback after course is usually positive
   + but we haven't assessed long-term feedback yet
+- Steering committee are happy
 - Fun!
 
 ---
@@ -130,8 +126,8 @@ http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training
   + beg, steal, borrow!
 - Technologies for easier creation of materials
   + Rstudio, jupyter notebooks
-- Technologies for easier software setup
-  + VMs, Docker, Cloud compute
+- Technologies for easier software setup and deployment
+  + Virtual Machines, Docker, Cloud compute
   
 ---
 
@@ -144,7 +140,12 @@ http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training
 
 ![](images/sheffield.jpg)
 
+---
+
 # Extra
+
+Number of CRUK C.I. employees attending a course 
+  + both internally and at University facilities
 
 ![](images/attendee-numbers.png)
 
@@ -153,7 +154,8 @@ http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training
 
 # Extra
 
+
 ![](images/popular-courses.png)
 
 ---
----
+
