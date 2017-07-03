@@ -1,0 +1,79 @@
+---
+title: "Untitled"
+author: "Mark Dunning"
+date: "3 July 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Survey Results
+
+```{r}
+
+fb <- read.delim("TrainingSurveyResults - Form responses 1.tsv")
+
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(ggplot2))
+suppressPackageStartupMessages(library(gridExtra))
+suppressPackageStartupMessages(library(stringr))
+library(tidyr)
+feedback <- tbl_df(read.delim("TrainingSurveyResults - Form responses 1.tsv")) %>% 
+  mutate(Position = What.is.your.Position...Job.title) %>% 
+  mutate(Position = str_replace_all(Position, "Research Assistant","Staff")) %>% 
+  mutate(Position = str_replace_all(Position, "saff scientist","Staff")) %>% 
+  mutate(Position = str_replace_all(Position, "SSA","Staff")) %>% 
+  mutate(Position = str_replace_all(Position, "Staff Scientist", "Staff")) %>%     
+  mutate(Position= str_replace_all(Position, "Technical staff", "Staff")) %>%     
+  filter(Position != "Group Leader") %>% 
+  filter(Position != "Senior Computational Biology Analyst") %>% 
+  mutate(Position=factor(Position)) %>% 
+  mutate(usedTools = Thinking.about.the.Bioinformatics.and.Statistics.training.courses.you.have.attended..have.you.proceeded.to.use.the.tools...techniques.you.learnt.about.outside.of.the.class.) %>% 
+  mutate(havePubs = Have.you.had.any.publications...presentations.that.were.made.possible.or.significantly.improved.as.a.direct.result.of.the.Bioinformatics.or.Statistics.training.you.received) %>% 
+  mutate(collab = Do.you.collaborate.with.a.Bioinformatician...Statistician.on.the.analysis.of.your.data.)
+
+
+png("images/skills-feedback.png",width=1200,height=800)
+
+
+skills <- select(feedback, Experimental.Design:Software.development) %>% gather
+ggplot(skills, aes(x=value)) + geom_bar(fill="steelblue") + facet_wrap(~key)
+
+dev.off()
+```
+
+## Course Attendance
+
+```{r}
+metrics <- read.delim("CourseAttendance-2017-06-22.tsv")
+metrics
+```
+
+```{r}
+attended <- filter(metrics, Booking.status == "booked",Attended == "Yes")
+attended <- mutate(attended, Event.title = factor(str_replace_all(Event.title, "CRUK: ","")))
+attended <- mutate(attended, Event.title = factor(str_replace_all(Event.title, " - Webcast Event","")))
+attended <- mutate(attended, Event.title = factor(str_replace_all(Event.title, "ElixirUK: ","")))
+attended
+```
+
+```{r}
+png("images/attendee-numbers.png",width=1200,height=800)
+attended %>%  ggplot(aes(x = factor(Month),fill=factor(Year))) + geom_bar() + ylab("Number of attendees") + xlab("Month") + facet_wrap(~Year)
+dev.off()
+
+```
+
+```{r, fig.width=12}
+library(RColorBrewer)
+png("images/popular-courses.png",width=1200,height=800)
+freq_table <- select(attended, Event.title, Event.start)  %>% group_by(Event.title)  %>%  summarise(Times = length(unique(Event.start)))
+count(attended,Event.title)  %>% arrange(n) %>%  left_join(freq_table) %>%  mutate(Event.title = factor(Event.title,levels=Event.title))  %>% filter(n > 5) %>% 
+  ggplot(aes(x=Event.title,y=n,fill=factor(Times))) + geom_bar(stat="identity") + ylab("Total number of attendees April 2015 - November 2016") + coord_flip() + scale_fill_manual(name="Number of Times Run",values=brewer.pal(7,"Set1")) +xlab("Course")
+
+
+```
+

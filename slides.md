@@ -45,7 +45,12 @@ Decisions based on:-
 
 # What people want
 
-(survey results)
+Institute-wide survey - February 2016
+
+> For each of the skills listed below, please rate from 1 to 5 how useful it would be to receive training in this area
+
+![](images/skills-feedback.png)
+
 
 ---
 
@@ -54,10 +59,11 @@ Decisions based on:-
 Take RNA-seq;
 
 - Do people want to run the analysis themselves
-- Or understand the basics and be able to interpret the output, maybe do some downstream analysis
-- In our case will be a mix of the two
+- Or understand the basics and be able to interpret the output
+  + maybe do some downstream analysis?
+- In our case it seems to be a mix of the two
 - Influence on choice of software
-  + R, Python notebook?
+  + R, jupyter notebook?
   + Galaxy?
 
 ---
