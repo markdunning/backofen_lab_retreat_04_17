@@ -26,6 +26,7 @@ In the early days of the group we were running:-
 - We got more involved with teaching at the University level
 - A permanent training role
   + me!
+  + funded externally to the Core
   
 ---
 
@@ -45,9 +46,7 @@ Decisions based on:-
 
 ---
 
-# What people want
-
-Institute-wide survey - February 2016
+# Institute-wide survey - February 2016
 
 > For each of the skills listed below, please rate from 1 to 5 how useful it would be to receive training in this area
 
@@ -60,7 +59,7 @@ Institute-wide survey - February 2016
 
 Take RNA-seq;
 
-- Do people want to run the analysis themselves
+- Do people want to run the analysis themselves?
 - Or understand the basics and be able to interpret the output
   + maybe do some downstream analysis?
 - In our case it seems to be a mix of the two
@@ -84,6 +83,8 @@ Take RNA-seq;
 - Data Management
 - IGV
 - Unix
+- github
+- Figure Design
 
 ---
 
