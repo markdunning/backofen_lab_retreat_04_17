@@ -62,7 +62,7 @@ attended
 ```
 
 ```{r}
-png("images/attendee-numbers.png",width=1200,height=800)
+png("images/attendee-numbers.png",width=1200,height=600)
 attended %>%  ggplot(aes(x = factor(Month),fill=factor(Year))) + geom_bar() + ylab("Number of attendees") + xlab("Month") + facet_wrap(~Year)
 dev.off()
 
@@ -70,11 +70,12 @@ dev.off()
 
 ```{r, fig.width=12}
 library(RColorBrewer)
-png("images/popular-courses.png",width=1200,height=800)
+png("images/popular-courses.png",width=1200,height=600)
 freq_table <- select(attended, Event.title, Event.start)  %>% group_by(Event.title)  %>%  summarise(Times = length(unique(Event.start)))
 count(attended,Event.title)  %>% arrange(n) %>%  left_join(freq_table) %>%  mutate(Event.title = factor(Event.title,levels=Event.title))  %>% filter(n > 5) %>% 
   ggplot(aes(x=Event.title,y=n,fill=factor(Times))) + geom_bar(stat="identity") + ylab("Total number of attendees April 2015 - November 2016") + coord_flip() + scale_fill_manual(name="Number of Times Run",values=brewer.pal(7,"Set1")) +xlab("Course")
 
+dev.off()
 
 ```
 
