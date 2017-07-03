@@ -121,6 +121,7 @@ http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training
 - Better interactions between Bioinformatician and Biologist
 - Feedback after course is usually positive
   + but we haven't assessed long-term feedback yet
+- Steering committee are happy
 - Fun!
 
 ---
@@ -131,8 +132,8 @@ http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training
   + beg, steal, borrow!
 - Technologies for easier creation of materials
   + Rstudio, jupyter notebooks
-- Technologies for easier software setup
-  + VMs, Docker, Cloud compute
+- Technologies for easier software setup and deployment
+  + Virtual Machines, Docker, Cloud compute
   
 ---
 
@@ -145,7 +146,12 @@ http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training
 
 ![](images/sheffield.jpg)
 
+---
+
 # Extra
+
+Number of CRUK C.I. employees attending a course 
+  + both internally and at University facilities
 
 ![](images/attendee-numbers.png)
 
@@ -154,7 +160,8 @@ http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training
 
 # Extra
 
+
 ![](images/popular-courses.png)
 
 ---
----
+
