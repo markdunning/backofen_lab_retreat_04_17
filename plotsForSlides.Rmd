@@ -33,13 +33,14 @@ feedback <- tbl_df(read.delim("TrainingSurveyResults - Form responses 1.tsv")) %
   mutate(Position=factor(Position)) %>% 
   mutate(usedTools = Thinking.about.the.Bioinformatics.and.Statistics.training.courses.you.have.attended..have.you.proceeded.to.use.the.tools...techniques.you.learnt.about.outside.of.the.class.) %>% 
   mutate(havePubs = Have.you.had.any.publications...presentations.that.were.made.possible.or.significantly.improved.as.a.direct.result.of.the.Bioinformatics.or.Statistics.training.you.received) %>% 
-  mutate(collab = Do.you.collaborate.with.a.Bioinformatician...Statistician.on.the.analysis.of.your.data.)
+  mutate(collab = Do.you.collaborate.with.a.Bioinformatician...Statistician.on.the.analysis.of.your.data.) %>% 
+  rename(Unix = Basic.command.line.skills, Figure.Design = Producing.Scientific.Figures,HPC=Using.high.performance.computing.tools) 
 
-
+feedback
 png("images/skills-feedback.png",width=1200,height=800)
 
 
-skills <- select(feedback, Experimental.Design:Software.development) %>% gather
+skills <- select(feedback, Experimental.Design:Software.development, R:Excel) %>% gather
 ggplot(skills, aes(x=value)) + geom_bar(fill="steelblue") + facet_wrap(~key)
 
 dev.off()
