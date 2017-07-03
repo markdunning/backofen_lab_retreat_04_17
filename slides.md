@@ -36,7 +36,7 @@ Decisions based on:-
 
 - Demands from user (see next slides)
 - Topics with existing materials
-- Tools / techniques where best pratices are established
+- Tools / techniques where best practices are established
   + RNA-seq
 - Tools that encourage independance and data exploration
   + e.g. browsers, web-based
@@ -97,7 +97,7 @@ http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training
 ---
 
 #  Case Study: Intermediate R
-
+- http://bioinformatics-core-shared-training.github.io/r-intermediate/
 - A one-day course to teach dplyr and ggplot2
 - Three individuals involved in creating materials
   + Mark Dunning, Matt Eldridge (CRUK CI), Thomas Carroll (MRC CSC, now Rockefeller Institute)
@@ -105,6 +105,8 @@ http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training
 - Materials created and presented in RStudio markdown
   + Mixture of walkthrough and exercises
 - Materials available on github
+- Sell-out course (46 seats) every time, usually with waiting list
+  + 4 /5 times run since April 2016
 
 ---
 
