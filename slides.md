@@ -96,12 +96,6 @@ http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training
 
 ---
 
-# Participation Rates
-
-(latest graphs on montly participation; which courses are most popular)
-
----
-
 #  Case Study: Intermediate R
 
 - A one-day course to teach dplyr and ggplot2
