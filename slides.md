@@ -124,10 +124,9 @@ http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training
 # It might not be as hard as you think
 
 - Plenty of resources out there
-  + beg, (steal), borrow!
   + An RNA-seq course that we [ran recently](https://bioinformatics-core-shared-training.github.io/RNAseq-R/)  is a fork of...
   + a course from a [group in Australia](http://combine-australia.github.io/2016-05-11-RNAseq/)
-  + check the licences!
+  + make sure to check the licences!
 - Technologies for easier creation of materials
   + Rstudio, jupyter notebooks
 - Technologies for easier software setup and deployment
