@@ -37,9 +37,11 @@ Decisions based on:-
 - Topics with existing materials
 - Tools / techniques where best pratices are established
   + RNA-seq
-- Tools that encourage independance
+- Tools that encourage independance and data exploration
   + e.g. browsers, web-based
-
+- Promoting better communication between wet-lab and Bioinformatician
+    + so they know what is possible 
+    + speed-up the process of completing a project
 
 ---
 
@@ -103,8 +105,8 @@ http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training
 
 - A one-day course to teach dplyr and ggplot2
 - Three individuals involved in creating materials
+  + Mark Dunning, Matt Eldridge (CRUK CI), Thomas Carroll (MRC CSC, now Rockefeller Institute)
 - Back of envelope estimate; around 100 hours preparation time
-  + 
 - Materials created and presented in RStudio markdown
   + Mixture of walkthrough and exercises
 - Materials available on github
@@ -133,16 +135,6 @@ http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training
   
 ---
 
-# Cover the basics well
-
-- Experimental Design
-- Stats
-  + without R at first
-- "Data Carpentry"
-- Unix
-
----
-
 # Let's work together on this
 
 ![](images/github.png)
@@ -151,3 +143,17 @@ http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/training
 # And finally
 
 ![](images/sheffield.jpg)
+
+# Extra
+
+![](images/attendee-numbers.png)
+
+---
+
+
+# Extra
+
+![](images/popular-courses.png)
+
+---
+---
